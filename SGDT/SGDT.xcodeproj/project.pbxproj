@@ -1,0 +1,300 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F232E4C5160A054200B063A7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F232E4C4160A054200B063A7 /* UIKit.framework */; };
+		F232E4C7160A054200B063A7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F232E4C6160A054200B063A7 /* Foundation.framework */; };
+		F232E4C9160A054200B063A7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F232E4C8160A054200B063A7 /* CoreGraphics.framework */; };
+		F232E4CF160A054200B063A7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F232E4CD160A054200B063A7 /* InfoPlist.strings */; };
+		F232E4D1160A054200B063A7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F232E4D0160A054200B063A7 /* main.m */; };
+		F232E4D5160A054200B063A7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F232E4D4160A054200B063A7 /* AppDelegate.m */; };
+		F232E4D8160A054200B063A7 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F232E4D6160A054200B063A7 /* MainStoryboard_iPhone.storyboard */; };
+		F232E4DB160A054200B063A7 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F232E4D9160A054200B063A7 /* MainStoryboard_iPad.storyboard */; };
+		F232E4DE160A054200B063A7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F232E4DD160A054200B063A7 /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F232E4C0160A054200B063A7 /* SGDT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SGDT.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F232E4C4160A054200B063A7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F232E4C6160A054200B063A7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F232E4C8160A054200B063A7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F232E4CC160A054200B063A7 /* SGDT-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SGDT-Info.plist"; sourceTree = "<group>"; };
+		F232E4CE160A054200B063A7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F232E4D0160A054200B063A7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F232E4D2160A054200B063A7 /* SGDT-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SGDT-Prefix.pch"; sourceTree = "<group>"; };
+		F232E4D3160A054200B063A7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F232E4D4160A054200B063A7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F232E4D7160A054200B063A7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		F232E4DA160A054200B063A7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		F232E4DC160A054200B063A7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F232E4DD160A054200B063A7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F232E4BD160A054200B063A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F232E4C5160A054200B063A7 /* UIKit.framework in Frameworks */,
+				F232E4C7160A054200B063A7 /* Foundation.framework in Frameworks */,
+				F232E4C9160A054200B063A7 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F232E4B5160A054200B063A7 = {
+			isa = PBXGroup;
+			children = (
+				F232E4CA160A054200B063A7 /* SGDT */,
+				F232E4C3160A054200B063A7 /* Frameworks */,
+				F232E4C1160A054200B063A7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F232E4C1160A054200B063A7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F232E4C0160A054200B063A7 /* SGDT.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F232E4C3160A054200B063A7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F232E4C4160A054200B063A7 /* UIKit.framework */,
+				F232E4C6160A054200B063A7 /* Foundation.framework */,
+				F232E4C8160A054200B063A7 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F232E4CA160A054200B063A7 /* SGDT */ = {
+			isa = PBXGroup;
+			children = (
+				F232E4D3160A054200B063A7 /* AppDelegate.h */,
+				F232E4D4160A054200B063A7 /* AppDelegate.m */,
+				F232E4D6160A054200B063A7 /* MainStoryboard_iPhone.storyboard */,
+				F232E4D9160A054200B063A7 /* MainStoryboard_iPad.storyboard */,
+				F232E4DC160A054200B063A7 /* ViewController.h */,
+				F232E4DD160A054200B063A7 /* ViewController.m */,
+				F232E4CB160A054200B063A7 /* Supporting Files */,
+			);
+			path = SGDT;
+			sourceTree = "<group>";
+		};
+		F232E4CB160A054200B063A7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F232E4CC160A054200B063A7 /* SGDT-Info.plist */,
+				F232E4CD160A054200B063A7 /* InfoPlist.strings */,
+				F232E4D0160A054200B063A7 /* main.m */,
+				F232E4D2160A054200B063A7 /* SGDT-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F232E4BF160A054200B063A7 /* SGDT */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F232E4E1160A054200B063A7 /* Build configuration list for PBXNativeTarget "SGDT" */;
+			buildPhases = (
+				F232E4BC160A054200B063A7 /* Sources */,
+				F232E4BD160A054200B063A7 /* Frameworks */,
+				F232E4BE160A054200B063A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SGDT;
+			productName = SGDT;
+			productReference = F232E4C0160A054200B063A7 /* SGDT.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F232E4B7160A054200B063A7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "张 重阳";
+			};
+			buildConfigurationList = F232E4BA160A054200B063A7 /* Build configuration list for PBXProject "SGDT" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F232E4B5160A054200B063A7;
+			productRefGroup = F232E4C1160A054200B063A7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F232E4BF160A054200B063A7 /* SGDT */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F232E4BE160A054200B063A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F232E4CF160A054200B063A7 /* InfoPlist.strings in Resources */,
+				F232E4D8160A054200B063A7 /* MainStoryboard_iPhone.storyboard in Resources */,
+				F232E4DB160A054200B063A7 /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F232E4BC160A054200B063A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F232E4D1160A054200B063A7 /* main.m in Sources */,
+				F232E4D5160A054200B063A7 /* AppDelegate.m in Sources */,
+				F232E4DE160A054200B063A7 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F232E4CD160A054200B063A7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F232E4CE160A054200B063A7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F232E4D6160A054200B063A7 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F232E4D7160A054200B063A7 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		F232E4D9160A054200B063A7 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F232E4DA160A054200B063A7 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F232E4DF160A054200B063A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F232E4E0160A054200B063A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F232E4E2160A054200B063A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SGDT/SGDT-Prefix.pch";
+				INFOPLIST_FILE = "SGDT/SGDT-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F232E4E3160A054200B063A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SGDT/SGDT-Prefix.pch";
+				INFOPLIST_FILE = "SGDT/SGDT-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F232E4BA160A054200B063A7 /* Build configuration list for PBXProject "SGDT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F232E4DF160A054200B063A7 /* Debug */,
+				F232E4E0160A054200B063A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F232E4E1160A054200B063A7 /* Build configuration list for PBXNativeTarget "SGDT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F232E4E2160A054200B063A7 /* Debug */,
+				F232E4E3160A054200B063A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F232E4B7160A054200B063A7 /* Project object */;
+}
